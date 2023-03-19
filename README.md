@@ -41,3 +41,7 @@ Follow these steps to setup and run the quickstart:
 ## License
 
 © Google, 2017. Licensed under an [Apache-2](../LICENSE) license.
+
+
+<!-- deploy web app to firebase -->
+1. firebase deploy --only hosting
