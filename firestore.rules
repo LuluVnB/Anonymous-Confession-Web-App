@@ -1,0 +1,9 @@
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /confessions/{confession} {
+
+      allow read: if request.auth != null;
+      allow create: if request.auth != null;
+    }
+  }
+}
